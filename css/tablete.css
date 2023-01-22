@@ -1,0 +1,109 @@
+@media (max-width: 850px){
+    body {
+        width:100%;
+        max-width: 100%;
+        margin: 0;
+        background-color: #151515;
+    }
+
+    .menu {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 1em;
+    }
+
+    #cabecalho{
+        width: 100%;
+    }
+
+    .menu ul li,
+    .menu ul li a,
+    .menu ul li a i {
+        padding: .2em;
+        margin-right: .2em;
+    }
+
+    .menu ul {
+        margin-right: 1em;
+    }
+
+    .textos-cabecalho {
+        width: 80%;
+        padding-left: 2em;
+    }
+
+    .textos-cabecalho h1 {
+        font-size: 80px;
+    }
+
+    .imagem-perfil {
+        width: 100%;
+    }
+
+    .svg-circulos {
+        width: 100%;
+    }
+
+    .svgcirculo {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25em;
+    }
+
+    /* section Ferramentas */
+
+    .container-ferramentas {
+        margin: 2em  2em
+    }
+
+    /* Projetos */
+
+    .projetos-header {
+        margin: 4em 2em;
+    }
+
+    .fotos-projetos {
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    .container-projetos{
+        margin:2em auto;
+    }
+
+    .btn-container:focus,
+    .btn-container button:focus {
+    transition: 2s;
+    z-index: 2;
+    background-color: rgba(1, 1, 1, .8);
+    }
+
+    #click {
+        visibility: visible;
+    }
+    /* COntato */
+
+    #contato{
+        width: 100%;
+    }
+
+    .contato {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-contato {
+        width: 60%;
+        margin: 3em auto;
+    }
+
+    .texto-contato {
+        margin: 4em auto;
+        width: 60%;
+    }
+
+    .texto-contato h1 {
+        text-align: center;
+    }
+
+}
